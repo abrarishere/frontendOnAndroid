@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # Install Node.js (if not already installed)
- apt update -y
- apt upgrade -y
- apt install -y nodejs npm
+apt update -y
+apt upgrade -y
+apt install nodejs npm inotify-tools -y
 
 # Install live-server globally
 npm install -g live-server
+npm install -g browser-sync
 
 # Install Sass globally
 npm install -g sass
