@@ -18,7 +18,7 @@ This repository is tailored for Android developers who face challenges while cod
    2. **Termux:** Download it from [F-Droid](https://f-droid.org/en/packages/com.termux/). Avoid downloading from the Play Store to ensure proper functionality.
 
 - **Customize Acode:**
-   Customize Acode according to your preferences. You can download my Acode settings file that I use from [Mediafire](https://www.mediafire.com/file/e40b1rzehcqicm9/Acode.backup/file).There are many plugins available in Acode, install all but not sass compiler as it always compile only one scss file and create 1 css even if you use import, it always create css file on saving
+   Customize Acode according to your preferences. You can download my Acode settings file that I use from [Mediafire](https://www.mediafire.com/file/e40b1rzehcqicm9/Acode.backup/file).There are many plugins available in Acode, install all but not sass compiler as it always compile only one scss file and create 1 css even if you use import, it always create css file on saving.
 
 - **Install Keyboard:**
    You can choose between the Codeboard keyboard or the Unexpected keyboard, both of which include all necessary keys.
