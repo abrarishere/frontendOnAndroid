@@ -25,6 +25,8 @@ This repository is tailored for Android developers who face challenges while cod
    - [Codeboard](https://github.com/gazlaws-dev/codeboard)
    - [Unexpected Keyboard](https://github.com/Julow/Unexpected-Keyboard)
 
+*Video of tutorial (https://youtu.be/VSN0zjdY554)*
+
 ### Setting Up for Every Project
 Once you've set up Termux and Acode, follow these steps to start coding in the template:
 - **Install Git:**
