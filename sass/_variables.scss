@@ -1,0 +1,86 @@
+
+
+
+@mixin smallest {
+  @media only screen and (min-width: 320px) {
+    // Your styles for smallest devices here
+  }
+}
+
+@mixin smaller {
+  @media only screen and (min-width: 360px) {
+    // Your styles for smaller devices here
+  }
+}
+
+@mixin iphone5 {
+  @media only screen and (min-width: 320px) and (max-width: 568px) {
+    // Your styles for iPhone 5 here
+  }
+}
+
+@mixin iphone6 {
+  @media only screen and (min-width: 375px) and (max-width: 667px) {
+    // Your styles for iPhone 6/7/8 here
+  }
+}
+
+@mixin iphone6plus {
+  @media only screen and (min-width: 414px) and (max-width: 736px) {
+    // Your styles for iPhone 6/7/8 Plus here
+  }
+}
+
+@mixin iphoneX {
+  @media only screen and (min-width: 375px) and (max-width: 812px) {
+    // Your styles for iPhone X/XS/11 Pro here
+  }
+}
+
+@mixin iphoneXR {
+  @media only screen and (min-width: 414px) and (max-width: 896px) {
+    // Your styles for iPhone XR/11 here
+  }
+}
+
+@mixin ipad {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    // Your styles for iPad here
+  }
+}
+
+@mixin ipadPro {
+  @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    // Your styles for iPad Pro here
+  }
+}
+
+@mixin smallLaptop {
+  @media only screen and (min-width: 1280px) and (max-width: 1366px) {
+    // Your styles for small laptops here
+  }
+}
+
+@mixin mediumLaptop {
+  @media only screen and (min-width: 1366px) and (max-width: 1440px) {
+    // Your styles for medium-sized laptops here
+  }
+}
+
+@mixin largeLaptop {
+  @media only screen and (min-width: 1440px) and (max-width: 1600px) {
+    // Your styles for large laptops here
+  }
+}
+
+@mixin extraLargeLaptop {
+  @media only screen and (min-width: 1600px) and (max-width: 1920px) {
+    // Your styles for extra large laptops here
+  }
+}
+
+@mixin ultraWideDesktop {
+  @media only screen and (min-width: 1920px) {
+    // Your styles for ultra-wide desktops here
+  }
+}

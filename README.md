@@ -1,96 +1,140 @@
-# Frontend Template
-## Repository for Android Developers
-### HTML CSS (CSS/SCSS/SASS)
+# Frontend Template for Android Developers
+## Android Development Environment for Frontend Work
 
-This repository is tailored for Android developers who face challenges while coding on their mobile devices. Please refer to the instructions below to get acquainted with the setup.
+Welcome to the repository designed specifically for Android developers tackling frontend challenges on their mobile devices. Follow the setup instructions below to streamline your development process.
 
 ## Table of Contents
 
 - [Overview](#overview)
   - [One-Time Setup](#one-time-setup)
-  - [Setting Up for Every Project](#every-project-setup)
+    - [Downloading Essential Applications](#downloading-essential-applications)
+    - [Personalizing Acode](#personalizing-acode)
+    - [Choosing a Keyboard](#choosing-a-keyboard)
+    - [Tutorial Video](#tutorial-video)
+  - [Setting Up for Every Project](#setting-up-for-every-project)
+    - [Installing Git](#installing-git)
+    - [Cloning the Repository](#cloning-the-repository)
+    - [Renaming the Folder](#renaming-the-folder)
+    - [Navigating to Project Folder](#navigating-to-project-folder)
+    - [Setting Permissions](#setting-permissions)
+    - [Running Setup](#running-setup)
+    - [Removing Unnecessary Files](#removing-unnecessary-files)
+    - [Launching Sass Compiler](#launching-sass-compiler)
+    - [Starting Live Server](#starting-live-server)
+    - [Opening Acode](#opening-acode)
+- [SCSS/SASS Files Overview](#scsssass-files-overview)
 
 ## Overview
 
 ### One-Time Setup
-- **Download the following applications:**
-   1. **Acode:** You can find it on [GitHub](https://github.com/deadlyjack/Acode). While it's available on the Play Store, it's recommended to acquire the pro version from alternative sources or purchase it from the Play Store for enhanced performance.
-   2. **Termux:** Download it from [F-Droid](https://f-droid.org/en/packages/com.termux/). Avoid downloading from the Play Store to ensure proper functionality.
 
-- **Customize Acode:**
-   Customize Acode according to your preferences. You can download my Acode settings file that I use from [Mediafire](https://www.mediafire.com/file/e40b1rzehcqicm9/Acode.backup/file).There are many plugins available in Acode, install all but not sass compiler as it always compile only one scss file and create 1 css even if you use import, it always create css file on saving.
+#### Downloading Essential Applications
 
-- **Install Keyboard:**
-   You can choose between the Codeboard keyboard or the Unexpected keyboard, both of which include all necessary keys.
-   - [Codeboard](https://github.com/gazlaws-dev/codeboard)
-   - [Unexpected Keyboard](https://github.com/Julow/Unexpected-Keyboard)
+- **Acode:** Find it on [GitHub](https://github.com/deadlyjack/Acode). While available on the Play Store, consider getting the pro version from alternative sources for better performance.
+- **Termux:** Download from [F-Droid](https://f-droid.org/en/packages/com.termux/) for optimal functionality.
 
-*Video of tutorial (https://youtu.be/VSN0zjdY554)*
+#### Personalizing Acode
+
+Customize Acode according to your preferences. Download my Acode settings file from [Mediafire](https://www.mediafire.com/file/e40b1rzehcqicm9/Acode.backup/file). Remember, while many Acode plugins are available, refrain from installing the Sass compiler, as it often generates a single CSS file despite using imports.
+
+#### Choosing a Keyboard
+
+Opt for either the Codeboard or Unexpected keyboard, both equipped with essential keys.
+- [Codeboard](https://github.com/gazlaws-dev/codeboard)
+- [Unexpected Keyboard](https://github.com/Julow/Unexpected-Keyboard)
+
+#### Tutorial Video
+
+View the tutorial video [here](https://youtu.be/VSN0zjdY554).
 
 ### Setting Up for Every Project
-Once you've set up Termux and Acode, follow these steps to start coding in the template:
-- **Install Git:**
-   Open Termux and install Git after updating packages:
-   ```bash
-   apt update -y && apt upgrade -y && apt install git
-   ```
-- **Clone the Repository:**
-   Clone the repository using the command:
-   ```bash
-   git clone https://github.com/abrarishere/frontendOnAndroid.git
-   ```
-- **Rename the Folder:**
-   Rename the folder as per your preference. For example, you can use:
-   ```bash
-   mv frontendOnAndroid-main myproject
-   ```
-- **Navigate to Project Folder:**
-   Move into the project folder:
-   ```bash
-   cd myproject
-   ```
-- **Set Permissions:**
-   Give permission to `setup.sh`:
-   ```bash
-   chmod +x setup.sh
-   ```
-- **Run Setup:**
-   Execute `setup.sh`:
-   ```bash
-   ./setup.sh
-   ```
-   or
-   ```bash
-   bash setup.sh
-   ```
-   This will download necessary files and grant permission to `sass.sh`.
-- **Delete Unnecessary Files:**
-   If Sass/SCSS is not needed, delete the `sass` folder and `sass.sh`:
-   ```bash
-   rm -rf sass && rm sass.sh
-   ```
-- **Delete `.git` Folder:**
-   Delete the `.git` folder, as it has been initialized:
-   ```bash
-   rm -rf .git
-   ```
-- **Start Sass Compiler:**
-   If Sass/SCSS is used, start the Sass compiler:
-   ```bash
-   ./sass.sh
-   ```
-   or
-   ```bash
-   bash sass.sh
-   ```
-- **Start Live Server:**
-   If required, start BrowserSync or a live server. Acode has a built-in browser, but for a live server, use:
-   ```bash
-   browser-sync start --server --files "**/*"
-   ```
-   or
-   ```bash
-   live-server
-   ```
-- **Open Acode:**
-   Finally, open the Acode app and navigate to the project folder. Customize the code as usual. If your mobile device supports picture-in-picture mode and a live server or BrowserSync is running, open the picture-in-picture window for better multitasking.
+
+After configuring Termux and Acode, proceed with the following steps to kickstart your coding journey:
+
+#### Installing Git
+
+Update packages in Termux and install Git:
+```bash
+apt update -y && apt upgrade -y && apt install git
+```
+
+#### Cloning the Repository
+
+Clone the repository using the command:
+```bash
+git clone https://github.com/abrarishere/frontendOnAndroid.git
+```
+
+#### Renaming the Folder
+
+Customize the folder name as per your preference:
+```bash
+mv frontendOnAndroid-main myproject
+```
+
+#### Navigating to Project Folder
+
+Move into the project folder:
+```bash
+cd myproject
+```
+
+#### Setting Permissions
+
+Grant permission to `setup.sh`:
+```bash
+chmod +x setup.sh
+```
+
+#### Running Setup
+
+Execute `setup.sh`:
+```bash
+./setup.sh
+```
+or
+```bash
+bash setup.sh
+```
+
+This will download necessary files and grant permission to `sass.sh`.
+
+#### Removing Unnecessary Files
+
+If Sass/SCSS is unnecessary, delete the `sass` folder and `sass.sh`:
+```bash
+rm -rf sass && rm sass.sh
+```
+
+#### Launching Sass Compiler
+
+If Sass/SCSS is used, start the Sass compiler:
+```bash
+./sass.sh
+```
+or
+```bash
+bash sass.sh
+```
+
+#### Starting Live Server
+
+If required, start BrowserSync or a live server:
+```bash
+browser-sync start --server --files "**/*"
+```
+or
+```bash
+live-server
+```
+
+#### Opening Acode
+
+Finally, open the Acode app, navigate to the project folder, and start coding. For multitasking, utilize picture-in-picture mode if supported by your device while running a live server or BrowserSync.
+
+## SCSS/SASS Files Overview
+
+The `scss` folder contains three key files:
+- `styles.scss`: The main stylesheet.
+- `_variables.scss`: Holds a plethora of media query mixins for various devices. Customize and add your own variables as needed.
+- `_resets.scss`: Contains CSS resets for zeroing out margins, paddings, and setting box sizing and body/html width to 100%.
