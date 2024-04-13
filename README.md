@@ -42,7 +42,7 @@ Customize Acode according to your preferences. Download the Acode settings file 
 
 Opt for either the Codeboard or Unexpected keyboard, both equipped with essential keys.
 
-- [Codeboard](https://github.com/gazlaws-dev/codeboard)
+- [Codeboard](https://github.com/abrarishere/codeboard)
 - [Unexpected Keyboard](https://github.com/Julow/Unexpected-Keyboard)
 
 #### Tutorial Video
