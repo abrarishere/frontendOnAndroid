@@ -22,6 +22,7 @@ Welcome to the repository designed specifically for Android developers tackling 
     - [Launching Sass Compiler](#launching-sass-compiler)
     - [Starting Live Server](#starting-live-server)
     - [Opening Acode](#opening-acode)
+    - [Tutorial Video](#tutorial-video)
 - [SCSS/SASS Files Overview](#scsssass-files-overview)
 
 ## Overview
@@ -131,6 +132,11 @@ live-server
 #### Opening Acode
 
 Finally, open the Acode app, navigate to the project folder, and start coding. For multitasking, utilize picture-in-picture mode if supported by your device while running a live server or BrowserSync.
+
+#### Tutorial Video
+
+View the tutorial video [here](https://youtu.be/ooJqWiwLd_s).
+
 
 ## SCSS/SASS Files Overview
 
