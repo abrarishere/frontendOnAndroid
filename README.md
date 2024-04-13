@@ -1,3 +1,4 @@
+
 # Frontend Template for Android Developers
 ## Android Development Environment for Frontend Work
 
@@ -10,7 +11,7 @@ Welcome to the repository designed specifically for Android developers tackling 
     - [Downloading Essential Applications](#downloading-essential-applications)
     - [Personalizing Acode](#personalizing-acode)
     - [Choosing a Keyboard](#choosing-a-keyboard)
-    - [Tutorial Video](#tutorial-video)
+    - [Tutorial Video](#tutorial-video-1)
   - [Setting Up for Every Project](#setting-up-for-every-project)
     - [Installing Git](#installing-git)
     - [Cloning the Repository](#cloning-the-repository)
@@ -22,7 +23,7 @@ Welcome to the repository designed specifically for Android developers tackling 
     - [Launching Sass Compiler](#launching-sass-compiler)
     - [Starting Live Server](#starting-live-server)
     - [Opening Acode](#opening-acode)
-    - [Tutorial Video](#tutorial-video)
+    - [Tutorial Video](#tutorial-video-2)
 - [SCSS/SASS Files Overview](#scsssass-files-overview)
 
 ## Overview
@@ -45,7 +46,6 @@ Opt for either the Codeboard or Unexpected keyboard, both equipped with essentia
 - [Unexpected Keyboard](https://github.com/Julow/Unexpected-Keyboard)
 
 #### Tutorial Video
-
 View the tutorial video [here](https://youtu.be/VSN0zjdY554).
 
 ### Setting Up for Every Project
@@ -134,9 +134,7 @@ live-server
 Finally, open the Acode app, navigate to the project folder, and start coding. For multitasking, utilize picture-in-picture mode if supported by your device while running a live server or BrowserSync.
 
 #### Tutorial Video
-
 View the tutorial video [here](https://youtu.be/ooJqWiwLd_s).
-
 
 ## SCSS/SASS Files Overview
 
