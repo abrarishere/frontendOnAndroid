@@ -74,7 +74,7 @@ git clone https://github.com/abrarishere/frontendOnAndroid.git
 Customize the folder name as per your preference:
 
 ```bash
-mv frontendOnAndroid-main myproject
+mv frontendOnAndroid myproject
 ```
 
 #### Navigating to Project Folder
