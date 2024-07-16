@@ -158,5 +158,7 @@ View the tutorial video [here](https://youtu.be/ooJqWiwLd_s).
 The `scss` folder contains three key files:
 
 - `styles.scss`: The main stylesheet.
-- `_variables.scss`: Holds a plethora of media query mixins for various devices. Customize and add your own variables as needed.
-- `_resets.scss`: Contains CSS resets for zeroing out margins, paddings, and setting box sizing and body/html width to 100%.
+- `utils`: Contains utility files.
+  - `utils/_index.scss`: Imports all utility files.
+  - `utils/mediaqueries.scss`: Contains media queries for responsive design.
+  - `utils/functions.scss`: Contains functions for some basic calculations like px to rem conversion.

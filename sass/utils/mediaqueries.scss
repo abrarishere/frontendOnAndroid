@@ -1,86 +1,83 @@
-
-
-
 @mixin smallest {
   @media only screen and (min-width: 320px) {
-    // Your styles for smallest devices here
+    @content;
   }
 }
 
 @mixin smaller {
   @media only screen and (min-width: 360px) {
-    // Your styles for smaller devices here
+    @content;
   }
 }
 
 @mixin iphone5 {
   @media only screen and (min-width: 320px) and (max-width: 568px) {
-    // Your styles for iPhone 5 here
+    @content;
   }
 }
 
 @mixin iphone6 {
   @media only screen and (min-width: 375px) and (max-width: 667px) {
-    // Your styles for iPhone 6/7/8 here
+    @content;
   }
 }
 
 @mixin iphone6plus {
   @media only screen and (min-width: 414px) and (max-width: 736px) {
-    // Your styles for iPhone 6/7/8 Plus here
+    @content;
   }
 }
 
 @mixin iphoneX {
   @media only screen and (min-width: 375px) and (max-width: 812px) {
-    // Your styles for iPhone X/XS/11 Pro here
+    @content;
   }
 }
 
 @mixin iphoneXR {
   @media only screen and (min-width: 414px) and (max-width: 896px) {
-    // Your styles for iPhone XR/11 here
+    @content;
   }
 }
 
 @mixin ipad {
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    // Your styles for iPad here
+    @content;
   }
 }
 
 @mixin ipadPro {
   @media only screen and (min-width: 1024px) and (max-width: 1366px) {
-    // Your styles for iPad Pro here
+    @content;
   }
 }
 
 @mixin smallLaptop {
   @media only screen and (min-width: 1280px) and (max-width: 1366px) {
-    // Your styles for small laptops here
+    @content;
   }
 }
 
 @mixin mediumLaptop {
   @media only screen and (min-width: 1366px) and (max-width: 1440px) {
-    // Your styles for medium-sized laptops here
+    @content;
   }
 }
 
 @mixin largeLaptop {
   @media only screen and (min-width: 1440px) and (max-width: 1600px) {
-    // Your styles for large laptops here
+    @content;
   }
 }
 
 @mixin extraLargeLaptop {
   @media only screen and (min-width: 1600px) and (max-width: 1920px) {
-    // Your styles for extra large laptops here
+    @content;
   }
 }
 
 @mixin ultraWideDesktop {
   @media only screen and (min-width: 1920px) {
-    // Your styles for ultra-wide desktops here
+    @content;
   }
 }
