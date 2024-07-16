@@ -131,6 +131,12 @@ or
 bash sass.sh
 ```
 
+You can also use the following command to compile Sass files:
+
+```bash
+sass --watch scss/styles.scss:css/styles.css
+```
+
 #### Starting Live Server
 
 If required, start BrowserSync or a live server:
