@@ -3,7 +3,7 @@
 # Install Node.js (if not already installed)
 apt update -y
 apt upgrade -y
-apt install nodejs npm -y
+apt install nodejs -y
 
 # Install live-server globally
 npm install -g live-server
@@ -23,4 +23,3 @@ echo ""
 echo "Installation completed successfully!"
 chmod +x sass.sh
 pkg install inotify-tools
-
