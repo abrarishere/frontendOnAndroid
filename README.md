@@ -1,4 +1,4 @@
-# Simple frontend template for frontend developers
+# Simple template for frontend developers
 
 >I created it as a personal template.
 
