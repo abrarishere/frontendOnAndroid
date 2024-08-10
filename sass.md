@@ -86,4 +86,3 @@ Make sure to compile the `style.scss` file to generate the `style.css` file befo
 >Currently all files are already ready for basic startup of any website.
 
 ---
-[]: # "END OF FILE"
