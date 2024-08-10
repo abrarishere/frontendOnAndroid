@@ -1,0 +1,39 @@
+//Basic mixins
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin flex($direction: row,
+  $justify: flex-start,
+  $align: stretch,
+  $wrap: nowrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+}
+
+@mixin transition($property, $duration: 0.3s, $timing-function: ease) {
+  -webkit-transition: $property $duration $timing-function;
+  -moz-transition: $property $duration $timing-function;
+  -ms-transition: $property $duration $timing-function;
+  -o-transition: $property $duration $timing-function;
+  transition: $property $duration $timing-function;
+}
+
+@mixin grid($columns: 3,
+  $rows: 3,
+  $gap: 1rem,
+  $justify: center,
+  $grid-areas: none) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  grid-template-rows: repeat($rows, 1fr);
+  grid-gap: $gap;
+  justify-content: $justify;
+  grid-template-areas: $grid-areas;
+}
